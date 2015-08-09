@@ -1,0 +1,40 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #000;
+	-webkit-app-region: drag;
+}
+
+.titlebar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+#app {
+	width: 100%;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+
+#gamewrapper {
+	width:100%;
+	height:90%;
+	background-color: #00ff00;
+}
+
+#footer {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	-webkit-app-region: drag;
+}
+
+#debug {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	background-color: #2B303B;
+}
